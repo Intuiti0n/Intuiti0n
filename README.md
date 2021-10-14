@@ -1,15 +1,3 @@
-### Hi there 👋
-
-<!--
-**Intuiti0n/Intuiti0n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
--->
-
-- 🔭 I’m currently working on improving my programming skills (C/C++,python, data structures, etc)
- 
-- 🌱 I’m currently learning Python and Blender
-
 ## Hi, I'm Daniel Gomes, Electronics Engineer Student!
 <div align="center">
   <a href="https://github.com/Intuiti0n">
@@ -41,3 +29,8 @@ Here are some ideas to get you started:
   ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
  
 </div>
+ 
+ - 🔭 I’m currently working on improving my programming skills (C/C++,python, data structures, etc)
+ 
+- 🌱 I’m currently learning Python and Blender
+ 
