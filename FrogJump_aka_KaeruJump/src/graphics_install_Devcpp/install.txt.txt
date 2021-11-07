@@ -1,0 +1,13 @@
+
+Copiar os ficheiros 
+libbgi.a, graphics.h e 6-ConsoleAppGraphics.template para as
+seguinte pastas do DevC++:
+   libbgi.a para lib
+   graphics.h para include
+   6-ConsoleAppGraphics.template para template
+
+Abrir o ficheiro jogo_galo_grafico.dev
+Executar o projeto
+
+Mais info em: 
+https://www.youtube.com/watch?v=3-VWAEG8eDU

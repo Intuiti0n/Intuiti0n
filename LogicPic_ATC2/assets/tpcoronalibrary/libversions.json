@@ -1,0 +1,9 @@
+{
+	"TPLib" : "5.0",
+	"TPAds" : "2.1",
+	"TPTagsManager" : "1.0",
+	"TPFeedback" : "1.1.1",
+    "TPI18n" : "1.0",
+    "TPLuaSampleRate": "1.0",
+    "TPTableToDB" : "0.1"
+}

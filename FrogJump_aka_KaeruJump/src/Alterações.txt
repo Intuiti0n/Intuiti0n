@@ -1,0 +1,74 @@
+		V3.4
+
+  Ja escreve as regras e os controlos em modo gráfico.
+
+----------------------------------------------------------------
+
+		V3.5
+
+  Se carregar no 'p' ou no ESC abre o menu pausa.
+
+-----------------------------------------------------------------
+	
+		V3.6
+
+  Faz Redo e Undo. 
+
+-----------------------------------------------------------------
+
+		V3.6.1
+
+  Criada função para guardar as info do sapo na stack 
+  (GravaTabUndo e GravaTabRedo).
+
+-----------------------------------------------------------------
+
+		V4
+
+  Melhorias das funções Undo e Redo. (Já gravam na stack desde o 
+  início do jogo, sem ainda ter havido movimentos). 
+
+-----------------------------------------------------------------
+
+		V4.1
+
+  Aperfeiçoamento das funções
+  Optimização da função executa_movimento. Foram criadas funções
+  (Cima, Baixo, Esquerda e Direita),que retornam as coordenadas 
+  da casa vazia na direção indicada.
+
+-----------------------------------------------------------------
+
+		V4.2
+
+  Jogo indica as jogadas válidas ao utilizador.
+
+-----------------------------------------------------------------
+
+		V5
+
+  Jogo ajuda o utilizador (hint) a concluir o puzzle com sucesso.
+
+-----------------------------------------------------------------
+
+		V5.1
+
+  Disponivel a opção "opções" que altera o funcionamento do jogo
+(desenhar ou não os olhos do sapo e as jogadas validas e fazer ou
+não o hint e o undo/redo).
+
+-----------------------------------------------------------------
+
+		V5.1.1
+
+  Guarda as opções e o número de movimentos (útil no hint) no 
+ficheiro quando se faz save.
+
+-----------------------------------------------------------------
+
+		V5.2
+
+  Funções Undo e Redo optimizadas. Alterações para só fazer hint
+se estiver a fazer o caminho determinado pelo ficheiro.
+
+-----------------------------------------------------------------
