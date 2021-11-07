@@ -32,18 +32,18 @@
 - 🌱 I’m currently learning Python and Blender
   
   
-  Projects/Portefolio
-  Smartband
-  IAP - Interactive Aura Panel
-  Smart Mirror
-  Blender best works
-  Fox and goose
-  Sapo
-  Logic Pic
-  OpenCV Money Counter
-  Digital Sign Post - Angular app
-  Solar pump LoraWAN
-  Fusion360 - Logitech Driving Force GT Wheel
+  Projects/Portefolio <br/>
+  Smartband<br/>
+  IAP - Interactive Aura Panel<br/>
+  Smart Mirror<br/>
+  Blender best works<br/>
+  Fox and goose<br/>
+  Sapo<br/>
+  Logic Pic<br/>
+  OpenCV Money Counter<br/>
+  Digital Sign Post - Angular app<br/>
+  Solar pump LoraWAN<br/>
+  Fusion360 - Logitech Driving Force GT Wheel<br/>
   
   
   
