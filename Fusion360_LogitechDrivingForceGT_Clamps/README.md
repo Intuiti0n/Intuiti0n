@@ -12,6 +12,7 @@ To improve the original design, we needed some references of the actual piece, t
 
 For the design and dimensions, check these images. Warning: All the dimensions are in mm (milimeters).
 For a side profile of the clamp, this image can be used.
+
 ![Clamp image](./dimensions1.png)
 
 ![Clamp image](./dimensions2.png)
@@ -28,8 +29,6 @@ The final product of this project was the following piece:
 The next step was to export the file as a .stl file into a slicing software to 3d print the piece.
 
 ![3d printing clamp in creality printer](./creality1.jpeg)
-
-If you want to see a small glimpse of the 3d printing process, click **[Here](./creality.mp4)**
 
 ## Stage 4 - Assembly in the logitech wheel
 
