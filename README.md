@@ -30,4 +30,24 @@
  - 🔭 I’m currently working on improving my programming skills (C/C++,python, data structures, etc)
  
 - 🌱 I’m currently learning Python and Blender
+  
+  
+  Projects/Portefolio
+  Smartband
+  IAP - Interactive Aura Panel
+  Smart Mirror
+  Blender best works
+  Fox and goose
+  Sapo
+  Logic Pic
+  OpenCV Money Counter
+  Digital Sign Post - Angular app
+  Solar pump LoraWAN
+  Fusion360 - Logitech Driving Force GT Wheel
+  
+  
+  
+  
+  
+  
  
