@@ -1,0 +1,118 @@
+<div>
+  <!--<h2>1PARTE</h2>
+  <p>->Há muitos anos atrás /Num reino muito muito distante
+    <br> ->/ NUma epoca Mediaval em que a Penisula Iberica era poderoso e rico
+    <br> -> Onde seria conhecido como Condado de Portucalense
+    <br> -> Numa pequena vila chamada Guimarães
+    <br> -> Fixou Henrique a sua habitação
+    <br> -> Aproveitando-se da oportunidade, Henrique declara a independencia da sua terra.
+    <br> -> Mas quando tudo parecia um mar de rosas, a 24 de abril de 1112 Henrique falece
+    <br> -> Deixando o Condado à merecer da sua esposa...
+  </p>
+-->
+  <!--
+    <ul [ngSwitch]="person">
+      <li *ngSwitchCase="'daniel'">Hello Mohan</li>
+      <li *ngSwitchCase="'alvaro'">Hello Sohan</li>
+      <li *ngSwitchCase="'pedro'">Hello Vijay</li>
+      <li *ngSwitchDefault>Bye Bye</li>
+    </ul> 
+  -->
+<!-- teste aos inputs do video do youtube
+  <p>Hello</p>
+  <input [value]="email" (keyup.enter)="onKeyUp()"/>
+-->
+  <div [ngSwitch]="id_router">
+    <div *ngSwitchCase="'1'">
+      <h2>1PARTE</h2>
+      <p>->Há muitos anos atrás /Num reino muito muito distante
+        <br> ->/ NUma epoca Mediaval em que a Penisula Iberica era poderoso e rico
+        <br> -> Onde seria conhecido como Condado de Portucalense
+        <br> -> Numa pequena vila chamada Guimarães
+        <br> -> Fixou Henrique a sua habitação
+        <br> -> Aproveitando-se da oportunidade, Henrique declara a independencia da sua terra.
+        <br> -> Mas quando tudo parecia um mar de rosas, a 24 de abril de 1112 Henrique falece
+        <br> -> Deixando o Condado à merecer da sua esposa...
+      </p>
+    </div>
+    
+    <div *ngSwitchCase="'2'">
+      <h2>2PARTE</h2>
+      <p>
+        <br> -> Anos mais tarde...
+        <br> -> Afonso que tinha decidido tirar umas férias
+        <br> -> Que escolherá o Arquipelago das Berlengas como retiro para o seu merecido descanso
+        <br> -> Durante este periodo de férias, o poderoso Castelo de Guimarães e todas as terras do reino foram invadidas pelo
+        exercito do Cavaleiro Negro
+        <br> -> Ao chegar a casa Afonso depara-se com a triste realidade da perda do seu reino
+        <br> -> Jura fazer tudo para recuperar o que é seu de direito
+        <br> -> Neste momento negro a sua mãe encontrava-se desaparecida...
+      </p>
+    </div>
+
+    <div *ngSwitchCase="'3'">
+      <h2>3PARTE</h2>
+      <p>
+        <br> - Afonso ao aproximar-se do castelo com um só folgo diz:
+        <br> - oh do castelo
+        <br> - o que deseja - responde o cavaleiro negro
+        <br> - abram os portoes quero entrar
+        <br> - queres entrar ? isso querias tu! já não és bem vindo aqui ! isto pretence-me!!
+        <br> - Mas ? Uma pessoa não pode ir às Berlengas durante 7 dias que é logo roubado?
+        <br> - Podes voltar a montar o cavalinho e dar à sola!
+        <br> - Afonso desolado retira-se....
+      </p>
+    </div>
+
+    <div *ngSwitchCase="'4'">
+      <h2>4PARTE</h2>
+      <p>
+        <br> - Não tendo conseguido entrar no seu castelo, Afonso decide-se esconder no arboredo, esperando pela sua oportunidade
+        de atacar o malfeitor
+        <br> - Surgindo das verduras com um gesto de bravura e coragem, Afonso enfrenta o cavaleiro Negro
+        <br> - Afonso perde a mão e cai desanparado no chão
+        <br> - Vem Afonso, junta-te a mim, e juntos vamos conquistar terras até perder de vista!
+        <br> - Nunca me juntarei a ti, mataste a minha mãe
+        <br> - Não Afonso eu sou a tua mãe
+        <br> - Não!!
+      </p>
+    </div>
+
+    <div *ngSwitchCase="'5'">
+      <h2>5PARTE</h2>
+      <p>
+        <br> -> Após a derrota contra a sua mãe, Afonso , agora com uma mao de ouro, vai em busca de reforços para conquistar
+        as suas terras
+        <br> ->Nesse momento um grupo de mouros avista-se no horizonte, e como inimigo do meu inimigo, meu amigo é Afonso decide
+        pedir-lhe ajuda, mas nem sempre as coisas correm como esperado...
+      </p>
+    </div>
+
+    <div *ngSwitchCase="'6'">
+      <h2>6PARTE</h2>
+      <p>
+        <br> -> Apesar de não ter a ajuda dos mouros, Afonso decide avançar sozinho contra o cavaleiro negro
+        <br> -> aproveita a noite para se esgueirar para dentro do castelo, apesar da sua inferioridade numerica
+        <br> -> Afonso encontra o cavaleiro negro e investe sobre ele em busca de justiça
+        <br> -> No correr da batalha Afonso fica em vantagem, mas a sua mãe contra atacando, atinge afonso, este sem energia
+        escuta uma voz, que lhe diz para ter força
+        <br> -> Afonso quase sem forças levanta-se e continua a batalha, e usando toda a sua força e engenho
+        <br> -> Derrotando a sua mãe
+      </p>
+    </div>
+
+    <div *ngSwitchDefault>Default</div>
+  </div>
+
+  <form (submit)="onClick($event)">
+    <div class="input">
+      <input type="submit" value="Continuar etapa" class="btn btn-success">
+    </div>
+  </form>
+
+  <form (submit)="goBack($event)">
+    <div class="input">
+      <input type="submit" value="Voltar atras" class="btn btn-primary">
+    </div>
+  </form>
+</div>

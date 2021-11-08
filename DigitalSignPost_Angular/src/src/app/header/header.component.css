@@ -1,0 +1,61 @@
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+summary {
+	display: block;
+}
+
+
+
+a {
+	color: #ca3c08;
+	text-decoration: none;
+}
+
+
+.site-header {
+	position: relative;
+}
+
+.site-header .home-link {
+	color: #141412;
+	background-color: #C76C1A;
+	display: block;
+	margin: 0 auto;
+	max-width: 1080px;
+	min-height: 180px;
+	padding: 0 20px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.site-header .site-title:hover {
+	text-decoration: underline;
+}
+
+.site-title {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+	padding: 30px 0 10px;
+	background-color: black;
+}
+
+.site-description {
+	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	margin: 0;
+	background-color: black;
+}
+
+.home-link{
+	background-color: black;
+	top:0;
+}

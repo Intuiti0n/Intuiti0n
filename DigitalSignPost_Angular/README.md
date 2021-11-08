@@ -1,12 +1,13 @@
 # Digital Sign Post - Angular app
 
+This readme is still in progress
+
 ## About the App
 
 This app had the following idea behind its creation: One user, multiple locations, location based narrative.
 After a bit of research was conducted, a dynamic narrative was chosen, where the user would be the narrator of the story, since he decides which places he is going to visit, deciding where the story would start and where the next chapters would take place.
 
 Each digital sign post has an associated ID and a matching location, and each location has a different story.
-
 
 ## Difficulties encountered / What did we learn
 
@@ -39,45 +40,50 @@ If this is the first time that the user is playing the game, he will be asked to
 This app should be like a narrative game, with a fictional narrative or a history inspired in true events, historical events or not.  To make the users experience more challenging, the app should re-route the users to another post in an indirect way, giving them multiple narrative choices to choose from. Each choice will take the user to a different post, and the story should continue according with the users’ choice, adapting itself as the user progresses from one post to another.
 This can prove to be an interesting concept for tourists, because they can engage in a story and know more about the city, visit different paths and monuments. When they arrive at a new post, the app should unlock that location, continue to the next chapter in the story, and give the user new choices to make.
 So, this app should follow these steps:
-•	User connects to the post, then it sends the log info to the server.
-•	The app should update the story to show a new chapter, then let the user choose between multiple paths that the story can take. 
-•	According to the users’ choice, the app indicates what post the user should visit next to continue the story.
 
+- User connects to the post, then it sends the log info to the server.
+- The app should update the story to show a new chapter, then let the user choose between multiple paths that the story can take.
+- According to the users’ choice, the app indicates what post the user should visit next to continue the story.
 
-Funcionalidades da aplicação
+## Organize the functionalities
 
-•	Apresentar conteúdo diferente sempre que um utilizador se conecta a um poste
-•	Detetar localização do utilizador
-•	Encaminhar o utilizador para diferentes postes e não ter apenas uma rota definida
-•	Desbloquear conteúdos quando o utilizador se conecta à rede Wi-Fi de um poste
-•	Criar um sistema de conquistas e recompensas para os utilizadores
-•	Guardar um histórico de localizações e ações de cada utilizador num servidor
+- Present different content every time a user connects to a post
+- Detect user location
+- Redirect the user to different posts and don't have only a pre-defined route
+- Unlock content when the user connects to the wifi post network
+- Create a challenge and reward system for the users
+- Save a location history and actions for each user on a server
 
-Para tornar a experiência desafiante para o utilizador, a aplicação deverá encaminhar os utilizadores para outro poste de forma indireta, isto é, sugerindo ao utilizador para se deslocar a um local fazendo referência a monumentos ou marcos importantes da área envolvente do poste, imagens, provérbios, etc. Esta abordagem é interessante, essencialmente, para turistas, porque se revela uma interessante “caça ao tesouro” para os utilizadores que desconhecem tais monumentos, podendo desta forma conhecer parte da historia e locais daquela zona/cidade. Quando o utilizador chega ao seu destino, a app deverá atribuir ao utilizador uma “conquista” (desbloquear aquela localização) e recompensa-lo ao fim de várias conquistas (1ª, 5ª, 10ª, etc) . Estas recompensas poderão ser, por exemplo, vouchers de descontos nos estabelecimentos vizinhos do poste onde o utilizador se conectou, ter acesso a mais conteúdo, ter opção de ver uma foto do monumento para o qual se deve deslocar, etc. 
-Utilizador conecta-se ao poste
--> fazer log deste momento
-->Ao iniciar a aplicação, apresentar varias alternativas de caminhos a seguir (rota aleatória)
--> o utilizador possui um perfil, com nível ou estatísticas de utilizador:
--Nº utilizador
--Nº de postes visitados
--Progresso/ nível
--Conquistas
-->Caso escolha 1 alternativa, deve ser sugerida informação para que o utilizador chegue de forma indireta ao próximo poste, essa informação pode ser sugerida de variadas formas, pode ser uma foto de um local próximo, uma indicação de uma rua, um excerto de historia relacionado com esse local, um proverbio, algo que esteja relacionado com o local.
--> quando a pessoa for visitar o próximo local, deve repetir o processo, fazer log, desbloquear a conquista daquele sitio, debloquear novo conteúdo e talvez oferecer recompensa como por exemplo vouchers/descontos em lojas da zona. 
-->Rating da app
-A app deveria seguir o principio de uma narrativa, sendo apresentadas varias opções de narrativa, vários caminhos a seguir. De acordo com os postes para os quais se desloca, a história vai seguir um rumo diferente, adaptando-se de acordo com as “escolhas” do utilizador devido a ser este que escolhe para onde se deslocar.
+To make this a compeling and challenging experience for the user, the app should redirect them to another post in an indirect way, suggesting the user to go to another location, by refering nearby monuments or relevant milestones, showing pictures, common sayings for the area, etc. This approach is interesting, specially for tourists, because it resembles a treasure hunt game, letting the unfamiliar users get to know new and cool spots, teaching them the history of those places. When the user arrives at a new locations, the app should unlock an achievement "Location Unlocked" and reward him after a few achievements (1º, 5º, 10º location unlocked, etc) This rewards could be, for instance, discount coupons for local shops of that area, access more content, get hints for more spots to visit, etc.
 
-FLUXO DA API
--> PESSOA LIGA-SE À API
--> INICIAR JOGO (criar novo user a cada inicio de sessao)
--> iNTRODUÇÃO - TUTORIAL
--> COMEÇA A HISTORIA DE ACORDO COM O POSTE ONDE SE ENCONTRA
-	|-> COMO CRIAR POSTE VIRTUAL? QRCODE, CODIGO DE BARRAS, INSERIR CODIGO NO POSTE - > "CODIGO" IDENTIFICA A ZONA (BIOMA) 
-	|->COMO APRESENTAR A HISTORIA :AMBIENTE GRAFICO, OU TEXTO  OU AMBOS
-	|-> A NARRATIVA AVANÇ ATÉ UM CERTO PONTO MARCANTE (PARA PRENDER O UTILIZADOR AO JOGO)
-		|->inserir novo "codigo" para continuar a historia/narrativa 
--> repetir os passos até ao fim da narrativa
+## Tasks
 
+1. User connects to the post
+
+- Log this moment
+- When starting the app, show a number of routes to follow (random routes)
+- The user has a profile, with level or statistics
+	- User number
+	- Number of locations visited
+	- Progress / Level
+	- Achievements
+- If he chooses 1 alternative, information should be provided for the user to reach the next post (give some tips, lore, picture, something related to the place)
+- When the person visits the next spot, the process should be repeated: log, unlock location, unlock new content, maybe offer reward
+- App rating (Future Work)
+
+2. API flow
+
+- User connects to the API
+- Start game (create new user when it is the first connection)
+- Intro -> Tutorial
+- Start the story according to the location
+	- How to create a virtual post? QRCODE? CODEBAR? insert code on post? code identifies area/biome
+	- How to present the story? graphic interface? text? both?
+	- The narrative advances till a certain cliffhanger moment
+- Insert new code to continue story
+- Repeat till the end of the story
+
+<!--
 Para avaliar da aplicação feita pelo grupo, será necessária uma avaliação externa, isto é,
 um indivíduo externo ao grupo, que deverá seguir uma série de passos de forma a mais tarde
 conseguir dar feedback ao grupo sobre quais os aspetos a melhorar ou se a aplicação se
@@ -114,4 +120,4 @@ envia um request pro servidor em que este deteta que o user visitou aquele local
 apresenta as "missoes" daquele post, com dicas, frases, imagens ou referencias de locais pra visitar,
 locais que sao referentes a diferentes categorias: historia, desporto, musica,
 expressoes populares, restauraçao, etc.
-
+-->
