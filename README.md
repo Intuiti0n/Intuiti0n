@@ -28,9 +28,32 @@
   <a href="https://www.linkedin.com/in/danieldasilvagomes/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  </div>
 
-- 🔭 I’m currently working on improving my programming skills (C/C++,python, data structures, etc)
-
-- 🌱 I’m currently learning Python and Blender
+- 🔭 I’m currently working on improving my programming skills
+  - C
+  - C++
+  - Assembly
+  - QML
+  - Git
+  - Qt
+  - Python (needs improvments)
+  - SQL (MySQL)
+  - HTML
+  - CSS
+  - JS (needs improvment)
+  - Angular (basic skills)
+  - Shell scripting
+  - OpenCV
+  - Visual Studio
+  - Visual Studio Code
+  - Atmel Studio
+  - Keil C51
+  - STM32
+  - Buildroot for custom linux images
+  - FPGA development (Verilog/ VHDL)
+  - Arduino
+  - Raspberry pi
+  
+- 🌱 I’m currently learning Web dev, Blender, Unreal Engine
   
   Projects/Portefolio <br/>
   Smartband<br/>
