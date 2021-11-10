@@ -74,13 +74,13 @@
 - Keil C51
   - Programming 8051 microcontroller dev board
 - STM32
-  - IAP - Interactive Aura Panel **[DigitalSignPost](./DigitalSignPost_Angular/)**
-- Buildroot for custom linux images 
-  - Raspberry pi project **[DigitalSignPost](./DigitalSignPost_Angular/)**
+  - **[IAP - Interactive Aura Panel](./IAP_Projeto1/)**
+- Buildroot for custom linux images
+  - **[IM -> Interactive Mirror](./InteractiveMirror/)**
 - FPGA development (Verilog/ VHDL)
-  - Acceleration of Machine Learning Inference Engine deployed on FPGA **[DigitalSignPost](./DigitalSignPost_Angular/)**
+  - **[Acceleration of Machine Learning Inference Engine deployed on FPGA](./AcceleratorMachineLearning/)**
 - Arduino
-  - Smartband **[DigitalSignPost](./DigitalSignPost_Angular/)**
+  - **[Smartband](./Smartband_Project1/)**
   - **[Solar pump LoraWAN](./DigitalSignPost_Angular/)**
   - Hobby projects
 - Raspberry pi
@@ -93,19 +93,18 @@
   - **[Wine cups](./DigitalSignPost_Angular/)**
   - **[Vase collection](./DigitalSignPost_Angular/)**
   - **[Redmi 8](./DigitalSignPost_Angular/)**
-
-
-<details>
-  <summary>Autodesk Fusion 360</summary>
-    <ul>
-      <li><a href="./Fusion360_LogitechDrivingForceGT_Clamps/">Logitech Driving Force GT extended clamp</a></li>
-    </ul>
-</details>
-
 - Autodesk Fusion 360
   - **[Logitech Driving Force GT extended clamp](./Fusion360_LogitechDrivingForceGT_Clamps/)**
   - **[Technical Piece](./Fusion360_TechnicalPiece/)**
   - **[Custom scooter wheels](./Fusion360_Wheels/)**
+
+  <details>
+    <summary>Autodesk Fusion 360</summary>
+      <ul>
+        <li><a href="./Fusion360_LogitechDrivingForceGT_Clamps/">Logitech Driving Force GT extended clamp</a></li>
+      </ul>
+  </details>
+
 
 ## I’m currently learning Python, Unreal Engine, Web Dev
   
