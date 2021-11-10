@@ -2,6 +2,8 @@
 
 This readme is still in progress
 
+Still working on updating this project and get it up and running again soon...
+
 ## About the App
 
 This app had the following idea behind its creation: One user, multiple locations, location based narrative.

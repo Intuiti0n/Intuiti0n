@@ -28,32 +28,67 @@
   <a href="https://www.linkedin.com/in/danieldasilvagomes/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  </div>
 
-- 🔭 I’m currently working on improving my programming skills
+## I’m currently working on improving my skills
   - C
+    - Fox and Goose
+    - 8051 programming
+    - Arduino programming
+    - STM32 programming
+    - ConvertHexToCode
+    - IAP -> Interactive Aura Panel
+    - General programming applications (solving problems/competitive programming)
   - C++
+    - Kaeru Jump
+    - STM programming
+    - Raspberry pi programming
   - Assembly
+    - 8051 programming
   - QML
+    - IM -> Interactive Mirror
   - Git
+    - For maintaining a few projects
   - Qt
-  - Python (needs improvments)
+    - Solving C/C++ problems, OpenCV, Raspberry Pi cross compiling, developing QML UI
+  - Python
+    - Training to solve problems
+    - Sports betting UI app with GOOGLE SHEETS API and TRELLO API integration (wip)
   - SQL (MySQL)
-  - HTML
-  - CSS
-  - JS (needs improvment)
-  - Angular (basic skills)
+    - Academic training
+  - HTML + CSS + JS 
+    - Website ajuda parte cardiaca
+  - Angular 
+    - DigitalSignPost
   - Shell scripting
+    - Random scripts to help with Raspberry pi development/ Embedded Systems projects
   - OpenCV
+    - Money Counter
   - Visual Studio
+    - Cocos2dx -> LogicPic game clone
   - Visual Studio Code
+    - To develop, debug, maintain code, etc
   - Atmel Studio
+    - Programming Arduinos
   - Keil C51
+   - Programming 8051 microcontroller dev board
   - STM32
-  - Buildroot for custom linux images
+    - IAP - Interactive Aura Panel
+  - Buildroot for custom linux images 
+    - Raspberry pi project
   - FPGA development (Verilog/ VHDL)
+   - Acceleration of Machine Learning Inference Engine deployed on FPGA
   - Arduino
+    - Smartband
+    - Solar pump LoraWAN
+    - Hobby projects
   - Raspberry pi
-  
-- 🌱 I’m currently learning Web dev, Blender, Unreal Engine
+  - Blender
+    - Diamond PBR tests
+  - Autodesk Fusion 360
+    - Logitech Driving Force GT extended clamp
+    - Technical Piece
+    - Custom scooter wheels
+
+## I’m currently learning Python, Unreal Engine, Web Dev
   
   Projects/Portefolio <br/>
   Smartband<br/>
